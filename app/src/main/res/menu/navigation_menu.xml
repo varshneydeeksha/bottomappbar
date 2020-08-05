@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item android:id="@+id/item1"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/item2"
+            android:icon="@drawable/ic_baseline_local_phone_24"
+            android:title="Contact"/>
+
+        <item android:id="@+id/item3"
+            android:icon="@drawable/ic_baseline_attachment_24"
+            android:title="Attachment"/>
+
+        <item android:id="@+id/item4"
+            android:icon="@drawable/ic_baseline_assessment_24"
+            android:title="Assessment"/>
+
+        <item android:id="@+id/item5"
+            android:icon="@drawable/ic_baseline_archive_24"
+            android:title="Archive"/>
+
+
+    </group>
+
+</menu>

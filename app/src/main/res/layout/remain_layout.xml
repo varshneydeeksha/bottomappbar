@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/remain_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.core.widget.NestedScrollView android:id="@+id/nestedScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Change FAB Button"
+                android:textSize="20sp"
+                android:onClick="changeFabMode"
+                android:background="#008000"
+                android:textColor="#ffffff"
+                />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Learn With Deeksha. Today you will learn bottom app bar in android.Here we will use java.
+if you like this video please don't forget to subscribe and like."
+                android:textColor="#000000"
+                android:textSize="60sp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="4dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
